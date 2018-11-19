@@ -47,7 +47,7 @@ public class Prim {
 			}
 		}
 	}
-	public boolean TodosVisitados(boolean[] nodos) {
+	private boolean TodosVisitados(boolean[] nodos) {
 		for(boolean resultado:nodos) {
 			if(!resultado) return resultado;
 		}
